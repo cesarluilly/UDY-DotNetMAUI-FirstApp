@@ -11,7 +11,7 @@ navegacion a la primer pagina con la cual empezamos
 ![1698628566900](image/Readme/1698628566900.png)
 
 **File MainPage.xaml**
-```xaml
+```xml
 <Button
     x:Name="CounterBtn"
     Text="Click me"
@@ -20,7 +20,7 @@ navegacion a la primer pagina con la cual empezamos
     HorizontalOptions="Center"/>
 ```
 
-```xaml
+```xml
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
@@ -91,7 +91,7 @@ y despues a la etiqueta de ContentPage se renombra por `FlyoutPage`
 y se le agrega adentro la propiedad `FlyoutPage.Flyout` y `<FlyoutPage.Detail>`
 
 **File FlayoutPageDemo.xaml**
-```xaml
+```xml
 <?xml version="1.0" encoding="utf-8" ?>
 <FlyoutPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
@@ -136,7 +136,7 @@ y despues a la etiqueta de ContentPage se renombra por `TabbedPage`
 y se le agregan sus demas propiedades
 
 
-```xaml
+```xml
 <?xml version="1.0" encoding="utf-8" ?>
 <TabbedPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
